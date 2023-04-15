@@ -1,0 +1,2770 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a81e6b1f80778470863577cd5a671d64 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a81e6b1f80778470863577cd5a671d64" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a81e6b1f80778470863577cd5a671d64 = L.map(
+                "map_a81e6b1f80778470863577cd5a671d64",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_318b10ae4e5ba04df27233a5502c9828 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            var marker_57e8150ed1b9f3549edefa31c1b62616 = L.marker(
+                [51.4966, -0.1764],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            var icon_94611c0fa50e91861b41854d22683d76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57e8150ed1b9f3549edefa31c1b62616.setIcon(icon_94611c0fa50e91861b41854d22683d76);
+        
+    
+        var popup_619556dde12d4109fe1230ab1139d57a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_415c800a8b0b819808ff48820dc334d0 = $(`<div id="html_415c800a8b0b819808ff48820dc334d0" style="width: 100.0%; height: 100.0%;">Natural History Museum</div>`)[0];
+                popup_619556dde12d4109fe1230ab1139d57a.setContent(html_415c800a8b0b819808ff48820dc334d0);
+            
+        
+
+        marker_57e8150ed1b9f3549edefa31c1b62616.bindPopup(popup_619556dde12d4109fe1230ab1139d57a)
+        ;
+
+        
+    
+    
+            var marker_267c39c10c52f75bd0df7a50a4435840 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_267c39c10c52f75bd0df7a50a4435840.bindTooltip(
+                `<div>
+                     Aardonyx
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af38a8e5fe5fa52d0944b98d341562be = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_af38a8e5fe5fa52d0944b98d341562be.bindTooltip(
+                `<div>
+                     Abelisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d00718c40019932b19cd40d886177f60 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d00718c40019932b19cd40d886177f60.bindTooltip(
+                `<div>
+                     Achillobator
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41120fd28049cbdf4dcd692d9c48f7e5 = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_41120fd28049cbdf4dcd692d9c48f7e5.bindTooltip(
+                `<div>
+                     Afrovenator
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58456eb2394938d239d4294d981a3632 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_58456eb2394938d239d4294d981a3632.bindTooltip(
+                `<div>
+                     Agilisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_291ea7b2e74406b69ed7babab76e6c9e = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_291ea7b2e74406b69ed7babab76e6c9e.bindTooltip(
+                `<div>
+                     Alectrosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c07929b89a0dd1ac140c9a67d7e071d4 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c07929b89a0dd1ac140c9a67d7e071d4.bindTooltip(
+                `<div>
+                     Alectrosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cd8cd63cab4884b569f205d550025fd = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7cd8cd63cab4884b569f205d550025fd.bindTooltip(
+                `<div>
+                     Alioramus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c42a74ff65254c667c55fef4589673a = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_9c42a74ff65254c667c55fef4589673a.bindTooltip(
+                `<div>
+                     Alvarezsaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f7ae3ad8ceb22635e13b0232d71a4c9 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_3f7ae3ad8ceb22635e13b0232d71a4c9.bindTooltip(
+                `<div>
+                     Amargasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_042b2b72fe91e48510cf9d8b06ac4771 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_042b2b72fe91e48510cf9d8b06ac4771.bindTooltip(
+                `<div>
+                     Amygdalodon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1a88a5d52d5127093ad2a542be44315 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e1a88a5d52d5127093ad2a542be44315.bindTooltip(
+                `<div>
+                     Anserimimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45ca1c5bc12bf5be64202ac91ec62ab4 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_45ca1c5bc12bf5be64202ac91ec62ab4.bindTooltip(
+                `<div>
+                     Antarctosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e46eb869dcb0a01ba0fc952add154ccc = L.marker(
+                [-18.4472361, -70.0714565],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e46eb869dcb0a01ba0fc952add154ccc.bindTooltip(
+                `<div>
+                     Antarctosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7184bc714efb08044f9b66175ed50f92 = L.marker(
+                [-32.8755548, -56.0201525],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7184bc714efb08044f9b66175ed50f92.bindTooltip(
+                `<div>
+                     Antarctosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b186f5170ae0edd46ec5f27ef8f9f894 = L.marker(
+                [48.1012954, 66.7780818],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_b186f5170ae0edd46ec5f27ef8f9f894.bindTooltip(
+                `<div>
+                     Aralosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77922d468b38be5a8fbbc19661b98737 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_77922d468b38be5a8fbbc19661b98737.bindTooltip(
+                `<div>
+                     Archaeoceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c4bfbb8ee84e787291d97c35989d790 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_3c4bfbb8ee84e787291d97c35989d790.bindTooltip(
+                `<div>
+                     Archaeornithomimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24bb95932b95de9653edc9aecdb46338 = L.marker(
+                [41.32373, 63.9528098],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_24bb95932b95de9653edc9aecdb46338.bindTooltip(
+                `<div>
+                     Archaeornithomimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e89eecb5dff9b05e2c70ec6b20f0ddb4 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e89eecb5dff9b05e2c70ec6b20f0ddb4.bindTooltip(
+                `<div>
+                     Argentinosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f9fc1e7c62dc9e3daa491b11ec4f8d2 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_2f9fc1e7c62dc9e3daa491b11ec4f8d2.bindTooltip(
+                `<div>
+                     Aucasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7d403f550a4322b1b9b7b6634864722 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d7d403f550a4322b1b9b7b6634864722.bindTooltip(
+                `<div>
+                     Avimimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5152b538e7cf9769b82a42cb224f91b6 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_5152b538e7cf9769b82a42cb224f91b6.bindTooltip(
+                `<div>
+                     Avimimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cfa0a0fc36422d0b705c2569f113616 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_0cfa0a0fc36422d0b705c2569f113616.bindTooltip(
+                `<div>
+                     Bactrosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32f2e534af9e901801ffc078d20200d2 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_32f2e534af9e901801ffc078d20200d2.bindTooltip(
+                `<div>
+                     Bagaceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_414b30a479dddf4541581c4ec127ee2a = L.marker(
+                [34.1707445, 77.5775835],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_414b30a479dddf4541581c4ec127ee2a.bindTooltip(
+                `<div>
+                     Barapasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7053eed97993b84c07e5b63ebf7e446f = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7053eed97993b84c07e5b63ebf7e446f.bindTooltip(
+                `<div>
+                     Barosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0ed1aea069ab2503ba8ed6db6f7afef = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d0ed1aea069ab2503ba8ed6db6f7afef.bindTooltip(
+                `<div>
+                     Beipiaosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef21f5e8ce568c900a26351b0f599272 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ef21f5e8ce568c900a26351b0f599272.bindTooltip(
+                `<div>
+                     Bellusaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc6bf66ba2a96de538ec7bffbf02492d = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_dc6bf66ba2a96de538ec7bffbf02492d.bindTooltip(
+                `<div>
+                     Borogovia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7697d6fa12aa4dc37f954a478565a283 = L.marker(
+                [36.80103939999999, 3.042593472700657],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7697d6fa12aa4dc37f954a478565a283.bindTooltip(
+                `<div>
+                     Brachiosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3f4a10654d6d69a108ef36d089af0d3 = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d3f4a10654d6d69a108ef36d089af0d3.bindTooltip(
+                `<div>
+                     Brachiosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efe11e31cc193de3f227d1719b4f75c0 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_efe11e31cc193de3f227d1719b4f75c0.bindTooltip(
+                `<div>
+                     Brachytrachelopan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e9b610a6616aa32d037aec09772be63 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_1e9b610a6616aa32d037aec09772be63.bindTooltip(
+                `<div>
+                     Buitreraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75bbb7ff388be58c64112ef59745d637 = L.marker(
+                [13.45911, -2.2496367403016495],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_75bbb7ff388be58c64112ef59745d637.bindTooltip(
+                `<div>
+                     Carcharodontosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45deb583c8b8ad4e1da03755c3387251 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_45deb583c8b8ad4e1da03755c3387251.bindTooltip(
+                `<div>
+                     Carnotaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e806dd9feb9b1788e560f51cf1f7146 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6e806dd9feb9b1788e560f51cf1f7146.bindTooltip(
+                `<div>
+                     Caudipteryx
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4b7d546592a00e38abb4ea66670e9db = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_b4b7d546592a00e38abb4ea66670e9db.bindTooltip(
+                `<div>
+                     Chaoyangsaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03811785075bd1f3122290eb0be57528 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_03811785075bd1f3122290eb0be57528.bindTooltip(
+                `<div>
+                     Chinshakiangosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2681f81e6f5884955cabba1c035e911 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c2681f81e6f5884955cabba1c035e911.bindTooltip(
+                `<div>
+                     Chubutisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6423abf7148c3d9bca0b3ccb83f1ea79 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6423abf7148c3d9bca0b3ccb83f1ea79.bindTooltip(
+                `<div>
+                     Chungkingosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30c40c97ea957bc6351ad3b1a7c587ca = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_30c40c97ea957bc6351ad3b1a7c587ca.bindTooltip(
+                `<div>
+                     Citipati
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_675eb0456407e05e5dd347eb5ce8b0f8 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_675eb0456407e05e5dd347eb5ce8b0f8.bindTooltip(
+                `<div>
+                     Coelophysis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e0b4447af183a486f067b4b11828069 = L.marker(
+                [-18.4554963, 29.7468414],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6e0b4447af183a486f067b4b11828069.bindTooltip(
+                `<div>
+                     Coelophysis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_716ecb3e1ff2cdcaf1edc2230cd8bae6 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_716ecb3e1ff2cdcaf1edc2230cd8bae6.bindTooltip(
+                `<div>
+                     Coloradisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5581c89c7898a68dcf67b2380ded4b75 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_5581c89c7898a68dcf67b2380ded4b75.bindTooltip(
+                `<div>
+                     Conchoraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8488716512aca3c8a41fbee835692975 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_8488716512aca3c8a41fbee835692975.bindTooltip(
+                `<div>
+                     Confuciusornis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f33168043d4801279269070c84eb062 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7f33168043d4801279269070c84eb062.bindTooltip(
+                `<div>
+                     Datousaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0342714ba2eb6c7f84d228f3bd8a7a33 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_0342714ba2eb6c7f84d228f3bd8a7a33.bindTooltip(
+                `<div>
+                     Deinocheirus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bcd9160d1eb42e5db45cb498bbbdeec = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7bcd9160d1eb42e5db45cb498bbbdeec.bindTooltip(
+                `<div>
+                     Dicraeosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_120aee66c641df8dc9c07e7a914d87a4 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_120aee66c641df8dc9c07e7a914d87a4.bindTooltip(
+                `<div>
+                     Dreadnoughtus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64a20e1bc53b11723e10bb90cb1f26b4 = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_64a20e1bc53b11723e10bb90cb1f26b4.bindTooltip(
+                `<div>
+                     Dryosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab79c1f043e019555becc8b38c4d387b = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ab79c1f043e019555becc8b38c4d387b.bindTooltip(
+                `<div>
+                     Elaphrosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e0bff696c6e6a77bca6472ff95057a8 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_9e0bff696c6e6a77bca6472ff95057a8.bindTooltip(
+                `<div>
+                     Eoraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a834c3506f7e9faf4e4e5140434cf2a = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_1a834c3506f7e9faf4e4e5140434cf2a.bindTooltip(
+                `<div>
+                     Equijubus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99c32024376d6397b11ff6c484dee90d = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_99c32024376d6397b11ff6c484dee90d.bindTooltip(
+                `<div>
+                     Erketu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5d1c9aff17cffb8b787f7ec27ccff3e = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c5d1c9aff17cffb8b787f7ec27ccff3e.bindTooltip(
+                `<div>
+                     Erlikosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef7cbfa6a30474d98cd62b7f7a676e10 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ef7cbfa6a30474d98cd62b7f7a676e10.bindTooltip(
+                `<div>
+                     Euhelopus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e29f6724b8102f37d530a50c5bd875b7 = L.marker(
+                [34.7324313, 135.3069326],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e29f6724b8102f37d530a50c5bd875b7.bindTooltip(
+                `<div>
+                     Fukuiraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9d87f428115e31412f246ae794a2a74 = L.marker(
+                [34.7324313, 135.3069326],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_a9d87f428115e31412f246ae794a2a74.bindTooltip(
+                `<div>
+                     Fukuisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f0eb750730cb8f99adf200345829c6c = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4f0eb750730cb8f99adf200345829c6c.bindTooltip(
+                `<div>
+                     Gallimimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf1a62f20eead2c615b19284957dd256 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_bf1a62f20eead2c615b19284957dd256.bindTooltip(
+                `<div>
+                     Garudimimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d197188d384652f834f871813c9c36c1 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d197188d384652f834f871813c9c36c1.bindTooltip(
+                `<div>
+                     Gasosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ce13bbae8e0ba6f211013d50d347403 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_1ce13bbae8e0ba6f211013d50d347403.bindTooltip(
+                `<div>
+                     Gasparinisaura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4b3e606a33655875b9c9781fbc5488e = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_a4b3e606a33655875b9c9781fbc5488e.bindTooltip(
+                `<div>
+                     Giganotosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39c1c05faeecd959e2f2d316b587df06 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_39c1c05faeecd959e2f2d316b587df06.bindTooltip(
+                `<div>
+                     Gilmoreosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76cf34fd118ac447d5407c702b11b2f9 = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_76cf34fd118ac447d5407c702b11b2f9.bindTooltip(
+                `<div>
+                     Giraffatitan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15c3925aa7acd0f9b9271ceced5f6895 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_15c3925aa7acd0f9b9271ceced5f6895.bindTooltip(
+                `<div>
+                     Gobisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_695183e41123661110ddaf63a4c96909 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_695183e41123661110ddaf63a4c96909.bindTooltip(
+                `<div>
+                     Goyocephale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_770de06813011102ee86cb17a9fdc03a = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_770de06813011102ee86cb17a9fdc03a.bindTooltip(
+                `<div>
+                     Graciliceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2da9ddb28bb4e315a08a07dc87737db = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c2da9ddb28bb4e315a08a07dc87737db.bindTooltip(
+                `<div>
+                     Guaibasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75da6366fed09c70515316d8525c4fcf = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_75da6366fed09c70515316d8525c4fcf.bindTooltip(
+                `<div>
+                     Guanlong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe06c125b703bfc1e5a5d3a3fc7a1503 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_fe06c125b703bfc1e5a5d3a3fc7a1503.bindTooltip(
+                `<div>
+                     Harpymimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71ec95321fbf557515b068a18dde1ea3 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_71ec95321fbf557515b068a18dde1ea3.bindTooltip(
+                `<div>
+                     Herrerasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95f777f0be9a473c788f7ff71b9f51fe = L.marker(
+                [-29.6039267, 28.3350193],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_95f777f0be9a473c788f7ff71b9f51fe.bindTooltip(
+                `<div>
+                     Heterodontosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01632acc6f151187d8c1aded9c413da7 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_01632acc6f151187d8c1aded9c413da7.bindTooltip(
+                `<div>
+                     Heterodontosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24066705fbce983f62ff4702d5d1e96f = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_24066705fbce983f62ff4702d5d1e96f.bindTooltip(
+                `<div>
+                     Heyuannia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2555a27bde61176dda5618cedffbf90a = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_2555a27bde61176dda5618cedffbf90a.bindTooltip(
+                `<div>
+                     Homalocephale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c595eb7436538c5d9fd7b889a3c7da1 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_2c595eb7436538c5d9fd7b889a3c7da1.bindTooltip(
+                `<div>
+                     Huayangosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cef9ae94c18e471c839f50cfdab5286b = L.marker(
+                [34.1707445, 77.5775835],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_cef9ae94c18e471c839f50cfdab5286b.bindTooltip(
+                `<div>
+                     Indosuchus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_365ef8e0a38ee731e53f0fc0936b7c06 = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_365ef8e0a38ee731e53f0fc0936b7c06.bindTooltip(
+                `<div>
+                     Irritator
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678a69daa2a388db30a0bc805fd04fa7 = L.marker(
+                [34.1707445, 77.5775835],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_678a69daa2a388db30a0bc805fd04fa7.bindTooltip(
+                `<div>
+                     Isisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa7baacb59bd021707a3fc2ad0ca3854 = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_fa7baacb59bd021707a3fc2ad0ca3854.bindTooltip(
+                `<div>
+                     Janenschia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d02bb6c19dc99ad01b1d5e0485d75f02 = L.marker(
+                [48.1012954, 66.7780818],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d02bb6c19dc99ad01b1d5e0485d75f02.bindTooltip(
+                `<div>
+                     Jaxartosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e26cd81d7c51b8ff9265bc69c39c2bd9 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e26cd81d7c51b8ff9265bc69c39c2bd9.bindTooltip(
+                `<div>
+                     Jingshanosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54c61f9935682f08c0ee99cb5f9ac86f = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_54c61f9935682f08c0ee99cb5f9ac86f.bindTooltip(
+                `<div>
+                     Jinzhousaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8c8b9b27f5a35efcfcbff5bdd3c363b = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_a8c8b9b27f5a35efcfcbff5bdd3c363b.bindTooltip(
+                `<div>
+                     Jobaria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71d984fedc59625bcb8f38351625ef07 = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_71d984fedc59625bcb8f38351625ef07.bindTooltip(
+                `<div>
+                     Kentrosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_771dcf4288a2ae7da624e621087963d1 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_771dcf4288a2ae7da624e621087963d1.bindTooltip(
+                `<div>
+                     Khaan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e520d1ab32506b9697e64d603247be7 = L.marker(
+                [34.1707445, 77.5775835],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_1e520d1ab32506b9697e64d603247be7.bindTooltip(
+                `<div>
+                     Kotasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3ff171888cdc8a3455121a6feb47637 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c3ff171888cdc8a3455121a6feb47637.bindTooltip(
+                `<div>
+                     Kritosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa8cc7b2b669280c2d1ed038e461344 = L.marker(
+                [-18.9249604, 46.4416422],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_cfa8cc7b2b669280c2d1ed038e461344.bindTooltip(
+                `<div>
+                     Lapparentosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3707e5bb62ed936a913c722856c4db6 = L.marker(
+                [-29.6039267, 28.3350193],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_f3707e5bb62ed936a913c722856c4db6.bindTooltip(
+                `<div>
+                     Lesothosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_899dd4b60e93d1db46ec2568ecb5230d = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_899dd4b60e93d1db46ec2568ecb5230d.bindTooltip(
+                `<div>
+                     Liaoceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1895812a61cb590c9e871948596b1fa = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c1895812a61cb590c9e871948596b1fa.bindTooltip(
+                `<div>
+                     Ligabuesaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ec95f6d9b5b78038344ff6c094ff094 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4ec95f6d9b5b78038344ff6c094ff094.bindTooltip(
+                `<div>
+                     Lufengosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_821f700b982e028eb0defa8b2e3eaaea = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_821f700b982e028eb0defa8b2e3eaaea.bindTooltip(
+                `<div>
+                     Lurdusaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf1ad87ae07abd76d47ac74cd125c67 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_8bf1ad87ae07abd76d47ac74cd125c67.bindTooltip(
+                `<div>
+                     Lycorhinus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_801a8ba60cf79cf5fbbf35327bd2eaeb = L.marker(
+                [-18.9249604, 46.4416422],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_801a8ba60cf79cf5fbbf35327bd2eaeb.bindTooltip(
+                `<div>
+                     Majungasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86b7291ef5bd9f87c8ba5458bc93c8c2 = L.marker(
+                [-13.2687204, 33.9301963],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_86b7291ef5bd9f87c8ba5458bc93c8c2.bindTooltip(
+                `<div>
+                     Malawisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c98bb5e557b0d859ebd8cda067c4732a = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c98bb5e557b0d859ebd8cda067c4732a.bindTooltip(
+                `<div>
+                     Mamenchisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0ab02520fb15728d9163114d778f98 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_cf0ab02520fb15728d9163114d778f98.bindTooltip(
+                `<div>
+                     Mapusaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9286719477f36df3045a2b6607c9324d = L.marker(
+                [-18.9249604, 46.4416422],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_9286719477f36df3045a2b6607c9324d.bindTooltip(
+                `<div>
+                     Masiakasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8da0fb27148f1683beacbf5057623919 = L.marker(
+                [-29.6039267, 28.3350193],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_8da0fb27148f1683beacbf5057623919.bindTooltip(
+                `<div>
+                     Massospondylus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e1746f7d9e3497c825320543a2b6232 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_9e1746f7d9e3497c825320543a2b6232.bindTooltip(
+                `<div>
+                     Massospondylus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07babbaaadb22d97c5b399ec9769590d = L.marker(
+                [-18.4554963, 29.7468414],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_07babbaaadb22d97c5b399ec9769590d.bindTooltip(
+                `<div>
+                     Massospondylus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8398bfb6826b16033cf0a7b957c429d = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e8398bfb6826b16033cf0a7b957c429d.bindTooltip(
+                `<div>
+                     Maxakalisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_937bec26d484e6601f34ee25afa5d6a9 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_937bec26d484e6601f34ee25afa5d6a9.bindTooltip(
+                `<div>
+                     Melanorosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf3fa5014f36115fd3ede57d95a583e5 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_bf3fa5014f36115fd3ede57d95a583e5.bindTooltip(
+                `<div>
+                     Microceratus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_322b67da81958ee63c7c959d2fec4e1d = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_322b67da81958ee63c7c959d2fec4e1d.bindTooltip(
+                `<div>
+                     Microceratus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0f6911118082180a9d52b7b7b5ad26b = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_f0f6911118082180a9d52b7b7b5ad26b.bindTooltip(
+                `<div>
+                     Micropachycephalosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73d48784ae5d994119a2f73e7c23221e = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_73d48784ae5d994119a2f73e7c23221e.bindTooltip(
+                `<div>
+                     Microraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23542f1bfcd05f0cdc1db5df36290972 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_23542f1bfcd05f0cdc1db5df36290972.bindTooltip(
+                `<div>
+                     Monolophosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58815cab629a64468f043a98c29a290c = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_58815cab629a64468f043a98c29a290c.bindTooltip(
+                `<div>
+                     Mononykus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49770b0859da87ca07e346643eea1659 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_49770b0859da87ca07e346643eea1659.bindTooltip(
+                `<div>
+                     Mononykus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_550d41a1c675f7c6b1bd3a2a83ac3bde = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_550d41a1c675f7c6b1bd3a2a83ac3bde.bindTooltip(
+                `<div>
+                     Mussaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62590343237c3002cb0b2c5760316b44 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_62590343237c3002cb0b2c5760316b44.bindTooltip(
+                `<div>
+                     Nanshiungosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de2967197b22ee542e34a74c1249d7ea = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_de2967197b22ee542e34a74c1249d7ea.bindTooltip(
+                `<div>
+                     Nemegtosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3ebb19441a9ec085eaa465b9dfded12 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_a3ebb19441a9ec085eaa465b9dfded12.bindTooltip(
+                `<div>
+                     Neuquenosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da7af547dfd20ab97748fd04d0fbd06c = L.marker(
+                [36.80103939999999, 3.042593472700657],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_da7af547dfd20ab97748fd04d0fbd06c.bindTooltip(
+                `<div>
+                     Nigersaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82001f28f4dedc0b1440137d9fff2b75 = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_82001f28f4dedc0b1440137d9fff2b75.bindTooltip(
+                `<div>
+                     Nigersaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f01aa432ee9a140563c57a36f7f631f = L.marker(
+                [36.6964922, 10.3857098],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6f01aa432ee9a140563c57a36f7f631f.bindTooltip(
+                `<div>
+                     Nigersaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a6c0c3808796d1e30fb44222df6ec0f = L.marker(
+                [60.719565, 114.9173742],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6a6c0c3808796d1e30fb44222df6ec0f.bindTooltip(
+                `<div>
+                     Nipponosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d153d3c3a974621265b54f820fcf1cb2 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d153d3c3a974621265b54f820fcf1cb2.bindTooltip(
+                `<div>
+                     Noasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e61e1a93d34069291c3722cf1e0a4009 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e61e1a93d34069291c3722cf1e0a4009.bindTooltip(
+                `<div>
+                     Nomingia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75f99c237ac627fa62fea810659ee5db = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_75f99c237ac627fa62fea810659ee5db.bindTooltip(
+                `<div>
+                     Nqwebasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1db07c780ac7d27479878176f854558 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c1db07c780ac7d27479878176f854558.bindTooltip(
+                `<div>
+                     Omeisaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7604b315222d22e36fa4ccc52af65273 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7604b315222d22e36fa4ccc52af65273.bindTooltip(
+                `<div>
+                     Opisthocoelicaudia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc6e384d8aa816e746f28fafa0de5b4f = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_cc6e384d8aa816e746f28fafa0de5b4f.bindTooltip(
+                `<div>
+                     Ouranosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fdb938421944dfc52cadce32cdece4b = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6fdb938421944dfc52cadce32cdece4b.bindTooltip(
+                `<div>
+                     Oviraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecbb353d97fde38d0059e80ce38b61c9 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ecbb353d97fde38d0059e80ce38b61c9.bindTooltip(
+                `<div>
+                     Patagosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f75a42616a06ad135c83265919f502b = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7f75a42616a06ad135c83265919f502b.bindTooltip(
+                `<div>
+                     Patagotitan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c468d43cd2c2a76e2be9ee2ef70491bb = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c468d43cd2c2a76e2be9ee2ef70491bb.bindTooltip(
+                `<div>
+                     Piatnitzkysaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64d5388a8361a71744275eb951d0d39b = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_64d5388a8361a71744275eb951d0d39b.bindTooltip(
+                `<div>
+                     Pinacosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adc53f1f6f6edf92b2bbb7e347f348f1 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_adc53f1f6f6edf92b2bbb7e347f348f1.bindTooltip(
+                `<div>
+                     Pinacosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_578dcfad764811567e0379c379353790 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_578dcfad764811567e0379c379353790.bindTooltip(
+                `<div>
+                     Prenocephale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7840fb51b128cad374896e7f8d171e22 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7840fb51b128cad374896e7f8d171e22.bindTooltip(
+                `<div>
+                     Probactrosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25679b55917092d5126b05b86b7bc459 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_25679b55917092d5126b05b86b7bc459.bindTooltip(
+                `<div>
+                     Protarchaeopteryx
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4196674d7e41c123bb33dc590d9fea9d = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4196674d7e41c123bb33dc590d9fea9d.bindTooltip(
+                `<div>
+                     Protoceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a753bcdaaf6817a874a7dbf565b230f = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_9a753bcdaaf6817a874a7dbf565b230f.bindTooltip(
+                `<div>
+                     Protoceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fdb5d31aff68bb3b2f50034cf33d5eb = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6fdb5d31aff68bb3b2f50034cf33d5eb.bindTooltip(
+                `<div>
+                     Psittacosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da9d091fb5268da64adb2520cba387f7 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_da9d091fb5268da64adb2520cba387f7.bindTooltip(
+                `<div>
+                     Psittacosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b1e8219c062cd63af36d6c5db1e06b2 = L.marker(
+                [60.719565, 114.9173742],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_0b1e8219c062cd63af36d6c5db1e06b2.bindTooltip(
+                `<div>
+                     Psittacosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88524f67d38e1566419f2a56bd8f6e1a = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_88524f67d38e1566419f2a56bd8f6e1a.bindTooltip(
+                `<div>
+                     Puertasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9a917012fb2f42cf3306ab837e3bbe6 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c9a917012fb2f42cf3306ab837e3bbe6.bindTooltip(
+                `<div>
+                     Quaesitosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90666dfcf3d280d4f49fbc735e06a845 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_90666dfcf3d280d4f49fbc735e06a845.bindTooltip(
+                `<div>
+                     Rinchenia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20125a1fc2552f70c8c327699aa1f636 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_20125a1fc2552f70c8c327699aa1f636.bindTooltip(
+                `<div>
+                     Riojasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db3dbcd091cdafcac46b3fce6a0e8515 = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_db3dbcd091cdafcac46b3fce6a0e8515.bindTooltip(
+                `<div>
+                     Rugops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b4842e3a0e7ac9264df35c2407c3331 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_3b4842e3a0e7ac9264df35c2407c3331.bindTooltip(
+                `<div>
+                     Saichania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c66d2155785184e92414dbd4e928c69c = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c66d2155785184e92414dbd4e928c69c.bindTooltip(
+                `<div>
+                     Saltasaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf316539d285ed232361b8481233022 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ccf316539d285ed232361b8481233022.bindTooltip(
+                `<div>
+                     Saurolophus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9448cc6048ae58f0b7a9511f2680b72 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_b9448cc6048ae58f0b7a9511f2680b72.bindTooltip(
+                `<div>
+                     Saurornithoides
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9e48bd6917d83610f421e543f1c1eba = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d9e48bd6917d83610f421e543f1c1eba.bindTooltip(
+                `<div>
+                     Secernosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d71d1e91a0a2d21c9fb5e98b04f565ef = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d71d1e91a0a2d21c9fb5e98b04f565ef.bindTooltip(
+                `<div>
+                     Segnosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4abe15a92df6ddc59abfd79dd690343e = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4abe15a92df6ddc59abfd79dd690343e.bindTooltip(
+                `<div>
+                     Shamosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f487b1b530fe61338db160804a82875e = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_f487b1b530fe61338db160804a82875e.bindTooltip(
+                `<div>
+                     Shanag
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80516cebb6b5cefd7a6b7e198bb225cb = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_80516cebb6b5cefd7a6b7e198bb225cb.bindTooltip(
+                `<div>
+                     Shantungosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2776233963eea1a71c071ade23cb59a2 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_2776233963eea1a71c071ade23cb59a2.bindTooltip(
+                `<div>
+                     Shunosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0c45e1a5ec7a45d6ac4e884a1eea6a6 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c0c45e1a5ec7a45d6ac4e884a1eea6a6.bindTooltip(
+                `<div>
+                     Shuvuuia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea9d0dd5d039289e8a4ad124d7274b2c = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ea9d0dd5d039289e8a4ad124d7274b2c.bindTooltip(
+                `<div>
+                     Sinocalliopteryx
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0ba4b52ea85172fd9f2b57f7b0b4b20 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c0ba4b52ea85172fd9f2b57f7b0b4b20.bindTooltip(
+                `<div>
+                     Sinornithosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dca78b7632f2b1f144e406844cdf3f7d = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_dca78b7632f2b1f144e406844cdf3f7d.bindTooltip(
+                `<div>
+                     Sinosauropteryx
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba43c2e1c7b79db0cc458dcd647b07fc = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_ba43c2e1c7b79db0cc458dcd647b07fc.bindTooltip(
+                `<div>
+                     Sinovenator
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81bd0849e586fc8d93be83cd3a87c296 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_81bd0849e586fc8d93be83cd3a87c296.bindTooltip(
+                `<div>
+                     Sinraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ace1bec4c4afadfce626c44186225c4 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4ace1bec4c4afadfce626c44186225c4.bindTooltip(
+                `<div>
+                     Sonidosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e701155682c007ff25e364fe2fcf8a71 = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_e701155682c007ff25e364fe2fcf8a71.bindTooltip(
+                `<div>
+                     Staurikosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e22f24fab5ebbc42249716ee7eaed23 = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_1e22f24fab5ebbc42249716ee7eaed23.bindTooltip(
+                `<div>
+                     Suchomimus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9fb0fe276da856d7493329af11e54c2 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_b9fb0fe276da856d7493329af11e54c2.bindTooltip(
+                `<div>
+                     Talarurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_499428d8455dc0693f330388e5d7902c = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_499428d8455dc0693f330388e5d7902c.bindTooltip(
+                `<div>
+                     Tanius
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0b100947fc2dfbb341eed93806795b4 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_a0b100947fc2dfbb341eed93806795b4.bindTooltip(
+                `<div>
+                     Tarbosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d77d9f0ab223aec825f4f104e13501d = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_2d77d9f0ab223aec825f4f104e13501d.bindTooltip(
+                `<div>
+                     Tarbosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb78814a7f289868e01c9f169d11c6e8 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_fb78814a7f289868e01c9f169d11c6e8.bindTooltip(
+                `<div>
+                     Tarchia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c813bdfa833b7b642acc36b2b44bc101 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_c813bdfa833b7b642acc36b2b44bc101.bindTooltip(
+                `<div>
+                     Therizinosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9dee9f80280f99f5dabfd55237c7ea4 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_f9dee9f80280f99f5dabfd55237c7ea4.bindTooltip(
+                `<div>
+                     Tsagantegia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fb42caee610f8aaa7ea70480b23a7ad = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4fb42caee610f8aaa7ea70480b23a7ad.bindTooltip(
+                `<div>
+                     Tsintaosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6659c0dd7e14d777f9bdb7f2e8760bcc = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_6659c0dd7e14d777f9bdb7f2e8760bcc.bindTooltip(
+                `<div>
+                     Tuojiangosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d699e73c640d3f5bb6601f7890a7dbb2 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_d699e73c640d3f5bb6601f7890a7dbb2.bindTooltip(
+                `<div>
+                     Tylocephale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81aae5215ce7abda0fd3da3fce304154 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_81aae5215ce7abda0fd3da3fce304154.bindTooltip(
+                `<div>
+                     Tyrannotitan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc924d0d725c0cd157caccad1b942df4 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_fc924d0d725c0cd157caccad1b942df4.bindTooltip(
+                `<div>
+                     Udanoceratops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_972d16899959d4b323c3aac14fc6e304 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_972d16899959d4b323c3aac14fc6e304.bindTooltip(
+                `<div>
+                     Unenlagia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fba81b21f4b5d8ac253cd5bbfcf0ec55 = L.marker(
+                [41.32373, 63.9528098],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_fba81b21f4b5d8ac253cd5bbfcf0ec55.bindTooltip(
+                `<div>
+                     Urbacodon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbce0057843f2fc79b8c66ca91c17190 = L.marker(
+                [13.8027152, 5.2519958],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_dbce0057843f2fc79b8c66ca91c17190.bindTooltip(
+                `<div>
+                     Valdosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_524c2c3586f26ba343d2ea758cc99b14 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_524c2c3586f26ba343d2ea758cc99b14.bindTooltip(
+                `<div>
+                     Velociraptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbe882a2d5252f925e775a39938c9092 = L.marker(
+                [-18.4554963, 29.7468414],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_bbe882a2d5252f925e775a39938c9092.bindTooltip(
+                `<div>
+                     Vulcanodon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8978bdd67c50fe4c4b845a1b6fc5f153 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_8978bdd67c50fe4c4b845a1b6fc5f153.bindTooltip(
+                `<div>
+                     Yandusaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8483fc5a1f40486c0d2b4a32295101c = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_b8483fc5a1f40486c0d2b4a32295101c.bindTooltip(
+                `<div>
+                     Yangchuanosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be982d7dd310b36bb1781f6d5d6df380 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_be982d7dd310b36bb1781f6d5d6df380.bindTooltip(
+                `<div>
+                     Yimenosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2152b3063c85db4abf9b292c72dafef7 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_2152b3063c85db4abf9b292c72dafef7.bindTooltip(
+                `<div>
+                     Yingshanosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_164a05d9ee545064abb87494ea51859e = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_164a05d9ee545064abb87494ea51859e.bindTooltip(
+                `<div>
+                     Yinlong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4150bca49b8365cef44b682a9491872b = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_4150bca49b8365cef44b682a9491872b.bindTooltip(
+                `<div>
+                     Yuanmousaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cbb84c7a1100021aa39a309b9e53872 = L.marker(
+                [23.9739374, 120.9820179],
+                {}
+            ).addTo(map_a81e6b1f80778470863577cd5a671d64);
+        
+    
+            marker_7cbb84c7a1100021aa39a309b9e53872.bindTooltip(
+                `<div>
+                     Yunnanosaurus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
